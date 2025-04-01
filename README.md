@@ -1,5 +1,3 @@
 # Projects
 
-Epic Films - при наведенні на постер вимикає напис.
-              Якщо клацнути по постеру буде перекидувати на IMDB.
-              Буде додавати жанри і можна буде відсортувати по жанрам.
+This repository was created to showcase my experience in writing projects.
