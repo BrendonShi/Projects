@@ -1,3 +1,3 @@
 # Projects
 
-This repository was created to showcase my experience in writing projects.
+This repository was created to show my experience in writing projects.

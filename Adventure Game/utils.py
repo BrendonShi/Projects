@@ -1,0 +1,2 @@
+def progress_bar(completed, bars, color="\x1b[38;5;1m", symbol="H"):
+    return str("\x1b[38;5;7m" + "[" + color + symbol * completed + "\x1b[38;5;238m" + symbol * (bars - completed) + "\x1b[38;5;7m" + "]")

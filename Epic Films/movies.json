@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Castiel",
+        "rating": "10.0",
+        "our_rating": [
+            "Epic",
+            "Cool"
+        ],
+        "image": "example1.jpg"
+    },
+    {
+        "name": "Black Doves",
+        "rating": "7.2",
+        "our_rating": 1.0,
+        "image": "MV5BZjk5MjNmYmMtZmY3Zi00NDQzLThiMzQtNWZmYmExZWU0YTEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "Supernatural",
+        "rating": "8.4",
+        "our_rating": 10.0,
+        "image": "MV5BMTU4MDg4Njk5MV5BMl5BanBnXkFtZTgwNjExNTU3NjM@._V1_.jpg"
+    },
+    {
+        "name": "Breaking Bad",
+        "rating": "9.5",
+        "our_rating": 10.0,
+        "image": "MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "The Walking Dead",
+        "rating": "8.1",
+        "our_rating": 10.0,
+        "image": "MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "Wicked",
+        "rating": "8.0",
+        "our_rating": 10.0,
+        "image": "MV5BODAyZjQzMDktNGIyMS00ZTFkLThkZWQtMmZkYTcxMGEzNTU2XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "Deadpool & Wolverine",
+        "rating": "7.6",
+        "our_rating": 10.0,
+        "image": "MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "The Queen's Gambit",
+        "rating": "8.5",
+        "our_rating": 10.0,
+        "image": "MV5BMGYxZmZkN2ItZjk3OS00MTNiLTliNDgtZGIyMzEwODIzZDM4XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "True Detective",
+        "rating": "8.9",
+        "our_rating": 10.0,
+        "image": "MV5BMjk0MGZkNDgtNWQzNy00MTBkLTg5Y2EtYjVmYWU0ZWExNzcwXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "name": "Five Nights at Freddy's VHS",
+        "rating": "8.5",
+        "our_rating": 1.0,
+        "image": "MV5BNTE0MTI5MGMtOTk4OS00NGFiLTg5ZTEtOTYzNmQxY2YxMDAzXkEyXkFqcGc@._V1_.jpg"
+    }
+]
