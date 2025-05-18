@@ -1,0 +1,200 @@
+body {
+  font-family: sans-serif;
+  background-color: #EBF0FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+	color: #333;
+	font-size: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 600;
+	text-align: center;
+	transition: transform 0.2s ease;
+}
+
+h1:hover {
+	transform: scale(1.05);
+	transition: transform 0.2s ease;
+}
+
+h2 {
+	text-align: center
+}
+
+.container {
+	background-color: white;
+	border-radius: 12px;
+	padding: 50px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+	width: 80%;
+	max-width: 600px;
+	text-align: flex-start;
+	margin-bottom: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.input-group {
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.submit-form {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.submit-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.submit-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.submit-form button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.chart-container {
+	height: 400px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.chart {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	height: 350px;
+	width: 100%;
+	padding-bottom: 20px;
+	overflow-x: scroll;
+}
+
+.bar {
+	width: 60px;
+	min-width: 30px;
+	background: linear-gradient(to top, #d7dcea, #a1a4ae);
+	margin: 0 5px;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+	transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.bar-value {
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	opacity: 0.6;
+	transition: opacity 0.3s ease;
+}
+
+.bar:hover {
+	background: linear-gradient(to top, #555, #333);
+	cursor: pointer;
+}
+
+.bar:hover .bar-value {
+	opacity: 1;
+}
+
+.bar.selected {
+	background: linear-gradient(to top, #ff6b6b, #ee5253) !important;
+	box-shadow: 0 0 8px rgba(238, 82, 83, 0.6);
+	z-index: 10;
+}
+
+.x-axis {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 2px;
+}
+
+.y-axis {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.chart-title {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.tooltip {
+	position: absolute;
+	background-color: rgba(44, 62, 80, 0.9);
+	color: white;
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.3s;
+	z-index: 10;
+}
+
+button {
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 13px;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+}
+
+button:hover {
+	transform: scale(1.1);
+  transition: transform 0.2s ease, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.calc div {
+	margin-top: 15px;
+	position: relative;
+	left: 50px;
+}

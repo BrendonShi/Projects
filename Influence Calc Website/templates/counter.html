@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Influence calculator!</h1>
+
+    <div class="input-group">
+      <div class="submit-form">
+        <input type="text" id="snakename" name="numbers" placeholder="Enter your numbers (1, 2, 3, etc.)" required>
+				<button onclick="sendNumbers()">Submit</button>
+      </div>
+    </div>
+		
+  </div>
+
+  <div class="container hidden" id="graph" style="position: relative;">
+			<h2>Chart</h2>
+
+			<div class="graph-container">
+				<div class="y-axis"></div>
+				<div class="x-axis"></div>
+				<div class="chart" id="barChart"></div>
+			</div>
+
+			<div class="selected-info" style="margin-top: 15px; text-align: center;">
+				<button id="clearSelectionBtn" style="width: 100px;">Clear</button>
+			</div>
+
+			<div class="calc" style="margin-top: 35px;">
+				<div>Total: <span id="total" style="font-weight: bold;"></span></div>
+				<div>Median: <span id="median" style="font-weight: bold;"></span></div>
+				<div>Mode: <span id="mode" style="font-weight: bold;"></span></div>
+				<div>Average: <span id="average" style="font-weight: bold;"></span></div>
+				<div>Total Average: <span id="totalAverage" style="font-weight: bold;"></span></div>
+				<div>Influence: <span id="influence" style="font-weight: bold;"></span></div>
+			</div>
+  </div>
+
+	<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
