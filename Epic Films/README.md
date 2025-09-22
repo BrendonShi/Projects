@@ -1,8 +1,6 @@
 # Projects
 
-This is Epic Films - an app to save your watched movies.
+Epic Films is an app to save your watched movies.
 
-To launch the program you have to launch 'gui.py'
-To save a film, you need to copy the link to it from imdb and then paste it into the
-
-Project was saved through PyCharm
+To start the program launch 'gui.py'
+To save a film, you need to copy the link of your movie or show from imdb page and then paste it into the program
